@@ -1,4 +1,5 @@
 import React from 'react';
+import Link from '../Link/Link';
 
 const Navbar = () => {
      const routes = [
@@ -14,7 +15,10 @@ const Navbar = () => {
           <nav>
                <ul>
                     {
-                         routes.map(route => <li>{route.name}</li>)
+                         routes.map(route => <Link
+                              key={route.id}
+                              route={route}
+                         />)
                     }
                </ul>
           </nav>
