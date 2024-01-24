@@ -1,0 +1,21 @@
+[
+     {
+       "id": 1,
+       "name": "Basic",
+       "price": "$19.99/month",
+       "features": ["Access to all equipment", "Free locker", "Free Wi-Fi"]
+     },
+     {
+       "id": 2,
+       "name": "Premium",
+       "price": "$29.99/month",
+       "features": ["Basic features", "Access to group classes", "Personal trainer"]
+     },
+     {
+       "id": 3,
+       "name": "Elite",
+       "price": "$39.99/month",
+       "features": ["Premium features", "Access to spa and sauna", "Nutrition plan"]
+     }
+   ]
+   
