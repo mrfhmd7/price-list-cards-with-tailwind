@@ -1,9 +1,10 @@
 import React from 'react';
 
-const PriceCard = () => {
+const PriceCard = ({ price }) => {
      return (
           <div>
-               <h2>This is price Card.</h2>
+               <h3 className='text-5xl font-bold text-purple-700'>{price.price}</h3>
+               <h4 className='text-2xl font-bold'>{price.name}</h4>
           </div>
      );
 };
