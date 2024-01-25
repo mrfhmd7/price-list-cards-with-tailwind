@@ -17,6 +17,7 @@ const PriceCard = ({ price }) => {
                          ></Feature>)
                     }
                </div>
+               <button className='font-bold text-xl text-white bg-green-600 hover:bg-green-700 w-full h-10 rounded-md'>Buy now</button>
           </div>
      );
 };
