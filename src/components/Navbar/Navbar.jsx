@@ -50,7 +50,7 @@ const Navbar = () => {
                     </span>
                </div>
                <ul
-                    className={`md:flex absolute md:static duration-300 pl-7 py-2 rounded-md bg-amber-300 ${open ? "top-14" : "-top-36"
+                    className={`md:flex absolute md:static duration-300 pl-7 py-2 rounded bg-amber-300 ${open ? "top-14" : "-top-36"
                          }`}
                >
                     {routes.map((route) => (
